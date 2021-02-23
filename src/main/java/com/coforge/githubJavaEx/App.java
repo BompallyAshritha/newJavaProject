@@ -8,7 +8,7 @@ public class App
 {
     public static void main( String[] args )
     {
-        //System.out.println( "Hello World! Hi Haiii!!!" );
+        System.out.println( "Hello World! Hi Haii!!!" );
     	EmployeeServiceImpl e1=new EmployeeServiceImpl();
     	Scanner sc=new Scanner(System.in);
     	System.out.println("Enter 1 for Add emp , 2 for Dis emp:");
@@ -18,7 +18,9 @@ public class App
 		
 		case 2:e1.displayEmp();
 		    break;
-
+		case 3:e1.updateEmployee();
+		    break;
+		
 		default:System.out.println("Requesting you to Enter only 1 or 2");
 			break;
 		}
