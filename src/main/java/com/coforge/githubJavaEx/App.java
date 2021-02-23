@@ -23,6 +23,9 @@ public class App
 		
 		default:System.out.println("Requesting you to Enter only 1 or 2");
 			break;
+			
+		System.out.println("Bye!! Have a Nice Day");	
 		}
+	    
     }
 }
